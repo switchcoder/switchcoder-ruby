@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Switchcoder::VERSION
   gem.authors       = ["Scott Barstow"]
   gem.email         = ["scott@switchcoder.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{API wrapper to access SwitchCoder}
+  gem.summary       = %q{This gem provides a simple API wrapper to access SwitchCoder from any ruby app.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["scott@switchcoder.com"]
   gem.description   = %q{API wrapper to access SwitchCoder}
   gem.summary       = %q{This gem provides a simple API wrapper to access SwitchCoder from any ruby app.}
-  gem.homepage      = ""
+  gem.homepage      = "http://switchcoder.com"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
